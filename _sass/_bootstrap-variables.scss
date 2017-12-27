@@ -7,9 +7,20 @@
 //
 // Color system
 //
+$blue:          #00e5d4 !default;
+$purple:        #462066 !default;
+$pink:          #cb008a !default;
+$lightgrey:     #d4d8de !default;
+$darkgrey:      #aeaeae !default;
 
-$indigo:  #6610f2;
-$primary: $indigo;
+$colors: () !default;
+
+$primary:       $purple !default;
+$secondary:     $pink !default;
+$success:       $blue !default;
+$light:         $lightgrey !default;
+$dark:          $darkgrey !default;
+
 
 // Fonts
 //

@@ -1,0 +1,106 @@
+
+.container{
+    margin-top:2%;
+    height:400%;
+}
+
+.col{
+    background-color: lightgrey;
+    border-radius: 20px 20px 0px 0px;
+    margin-top:2%;
+    padding:0px
+}
+.navbar {
+    background-color: purple;
+    margin:0px;
+}
+.footer {
+    background-color:white;
+    border-radius:0px;
+    border-top: 10px;
+    border-color:lightgrey;
+}
+.footer .container{
+    background-color: white;
+}
+
+.btn{
+    width: 100%;
+    border-radius:20px 20px 0px 0px;
+    }
+
+.btn:hover{
+    box-shadow: 2px;
+    }
+
+a:link{
+    text-decoration: none;
+    }
+.form-control{
+    border-radius:20px 20px 0px 0px;
+    border-bottom:none;
+}
+.img-fluid{
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.pic-desktop{
+    display:none;
+}
+.pic-mobile{
+    display:block;
+}
+.img-person{
+    padding:5%;
+    margin:0%;
+    border: white;
+}
+.col-nomargin{
+    margin:0%;
+    border-radius:0px;
+}
+.logo{
+    width:50%;
+}
+.logo_nav{
+    border-radius:none;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  
+    .pic-mobile {
+        display: block;
+    }
+    .pic-desktop {
+        display: none;
+    }
+    .logo{
+        width:40%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .pic-desktop {
+        display: block;
+    }
+    .pic-mobile {
+        display: none;
+    }
+    .logo{
+        width:20%;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .pic-desktop {
+        display: block;
+    }
+    .pic-mobile {
+        display: none;
+    }
+    .logo{
+        widows: 20%;
+    }
+}
+
