@@ -1,5 +1,7 @@
-.conatiner{
+.container{
     overflow: scroll;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 h1 {
     font-size: $fontsize-one;
@@ -93,9 +95,6 @@ a:link{
 }
 .logo_nav{
     border-radius:none;
-}
-.container{
-    margin-top: 2%;
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {  
