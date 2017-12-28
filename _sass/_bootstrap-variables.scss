@@ -9,7 +9,7 @@
 //
 $blue:          #00e5d4 !default;
 $purple:        #462066 !default;
-$pink:          #cb008a !default;
+$pink:          #ff99cc !default;
 $lightgrey:     #d4d8de !default;
 $darkgrey:      #aeaeae !default;
 
@@ -25,7 +25,13 @@ $dark:          $darkgrey !default;
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
+$fontsize-one: 35px;
+$fontsize-two: 25px;
+$fontsize-three: 20px;
+$fontsize-four: 15px;
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+$font-one: 'Raleway', sans-serif;
+$font-two: 'Barlow', sans-serif;
 
-$font-family-base: Merriweather, serif;
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("http://fonts.googleapis.com/css?family=Barlow")
